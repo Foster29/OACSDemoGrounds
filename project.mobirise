@@ -62,7 +62,7 @@
           },
           "title": "Welcome to the Oracle Analytics Cloud Suite Demo Grounds",
           "text": "Dedicated to Oracle partners, Demo the entire Oracle Analytics Cloud Suite including , Essbase Cloud services and DxD. &nbsp;Prebuilt demo and DV examples along with extenisve R integration.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://calendar.google.com/calendar/embed?src=6kntgc4efrufo73t9cvmmpvkgc%40group.calendar.google.com&amp;ctz=America/New_York\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Make your reservation today</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://docs.google.com/spreadsheets/d/1Jqk_km2CWEsFaExHwx0SEDASR4lbevr9RixSixftcNs/edit?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Check Availablity</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"mailto: pete.monteiro@oracle.com?subject=OACS Access Request\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Request Access</a> ",
           "_styles": {
             ".mbr-section-title": {
               "font-size": "48px"
