@@ -411,6 +411,9 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header1-2 .mbr-section-title {
+  font-size: 48px;
+}
 #menu-3 .hide-buttons .nav-btn {
   display: none !important;
 }
