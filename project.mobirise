@@ -60,12 +60,12 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "Welcome to the Oracle Analytics Cloud Suite Demo Grounds",
-          "text": "Dedicated to Oracle partners, Demo the entire Oracle Analytics Cloud Suite including , Essbase Cloud services and DxD. &nbsp;Prebuilt demo and DV examples along with extenisve R integration.&nbsp;",
+          "title": "Oracle Analytics Cloud Suite <br>Demo Grounds",
+          "text": "Dedicated to Oracle partners, Demo the entire Oracle Analytics Cloud Suite including , Essbase Cloud services and DxD. &nbsp;Build/import your own content or leverage prebuilt demo and DV examples along with extenisve R integration.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://docs.google.com/spreadsheets/d/1Jqk_km2CWEsFaExHwx0SEDASR4lbevr9RixSixftcNs/edit?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Check Availablity</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"mailto: pete.monteiro@oracle.com?subject=OACS Access Request\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Request Access</a> ",
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "48px"
+              "font-size": "60px"
             }
           }
         },
@@ -78,13 +78,15 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "1.05rem"
@@ -96,16 +98,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#a8a8a8"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#b9b9b9!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#c1c1c1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -124,22 +126,26 @@
           "_name": "menu",
           "_anchor": "menu-3",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#c1c1c1",
             "fontSize": "1.05",
-            "fontName": {},
-            "fontColor": "#ffffff",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
+            "transparent": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/opn-cloud-program-logo-268x128.png",
+              "src": "@PROJECT_PATH@/assets/images/ora-cloudplatformpartnercommunity-729x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -152,8 +158,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\" \" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Oracle Analytics Cloud Suite</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://drive.google.com/file/d/0B1CE15SFkbYkZzN0WkFEcmdmUUk/view?usp=sharing\" target=\"_blank\">702 OVERVIEW</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" aria-expanded=\"true\" target=\"_blank\">Assets</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://isdportal.oracle.com/pls/portal/tsr_admin.page.main?pageid=33,986&amp;dad=portal&amp;schema=PORTAL&amp;p_k=mVwDzAqVtrdqmPKVEOGSQdNhOUZEtDSjdwNdPsoSuOKsiAUSAswyHBbBqWHt1191763551\" target=\"_blank\">BI Demo Store</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://sites.google.com/site/oraclebipublicstore/\" target=\"_blank\">Public App Store (dv plugins)</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" aria-expanded=\"false\">Social Media</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://twitter.com/search?q=%23OracleDV\" target=\"_blank\">Twitter</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://oracledataviz.blogspot.co.uk/\" target=\"_blank\">dataviz blog</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/user/OracleBITechDemos\" target=\"_blank\">BITECH Youtube</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.oracle.com/technetwork/middleware/oracle-data-visualization/downloads/oracle-data-visualization-desktop-2938957.html\" target=\"_blank\">Download DVD</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\" \" target=\"_blank\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Download DxD app</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.ravellosystems.com/\" target=\"_blank\">Ravello Access</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" target=\"_blank\" aria-expanded=\"false\">Support</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://community.oracle.com/community/employee/product-development/oracle-bi-internal-community/sampleapp-virtualbox\" target=\"_blank\">OACS Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:pete.monteiro@oracle.com\" target=\"_blank\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">WIP DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"  \" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"> </a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://drive.google.com/file/d/0B1CE15SFkbYkZzN0WkFEcmdmUUk/view?usp=sharing\" target=\"_blank\">Release Overview</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" aria-expanded=\"false\" target=\"_blank\">Assets</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://isdportal.oracle.com/pls/portal/tsr_admin.page.main?pageid=33,986&amp;dad=portal&amp;schema=PORTAL&amp;p_k=mVwDzAqVtrdqmPKVEOGSQdNhOUZEtDSjdwNdPsoSuOKsiAUSAswyHBbBqWHt1191763551\" target=\"_blank\">BI Demo Store</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://sites.google.com/site/oraclebipublicstore/\" target=\"_blank\">Public App Store (dv plugins)</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" aria-expanded=\"false\">Social Media</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://twitter.com/search?q=%23OracleDV\" target=\"_blank\">Twitter</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://oracledataviz.blogspot.co.uk/\" target=\"_blank\">dataviz blog</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/user/OracleBITechDemos\" target=\"_blank\">BITECH Youtube</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.oracle.com/technetwork/middleware/oracle-data-visualization/downloads/oracle-data-visualization-desktop-2938957.html\" target=\"_blank\">Download DVD</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\" \" target=\"_blank\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Download DxD app</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.ravellosystems.com/\" target=\"_blank\">Ravello Access</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\" \" target=\"_blank\" aria-expanded=\"false\">Support</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://community.oracle.com/community/employee/product-development/oracle-bi-internal-community/sampleapp-virtualbox\" target=\"_blank\">OACS Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:pete.monteiro@oracle.com\" target=\"_blank\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">WIP DOWNLOAD</a></li>"
         }
       ]
     }
